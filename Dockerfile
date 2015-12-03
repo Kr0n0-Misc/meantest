@@ -1,0 +1,4 @@
+FROM node:4-onbuild
+ENV VIRTUAL_HOST meantest.ethelhub.io
+ENV VIRTUAL_PORT 8081
+EXPOSE 8081
